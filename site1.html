@@ -795,19 +795,104 @@
             .form-grid {
                 grid-template-columns: 1fr;
             }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                padding: 12px 0;
+            }
+
+            nav {
+                padding: 0 20px;
+            }
+
+            .hero {
+                padding: 120px 20px 60px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .stats,
+            .features,
+            .services,
+            .testimonials {
+                padding: 60px 20px;
+            }
+
+            .section-header h2 {
+                font-size: 28px;
+            }
+
+            .contact-section {
+                padding: 60px 20px;
+            }
+
+            .contact-left,
+            .contact-right {
+                padding: 60px 32px;
+            }
         }
 
         @media (max-width: 640px) {
             .hero h1 {
-                font-size: 32px;
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 14px;
+            }
+
+            .hero-badge {
+                font-size: 11px;
+                padding: 6px 12px;
+            }
+
+            .cta-group {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .cta-button {
+                width: 100%;
+                justify-content: center;
+            }
+
+            nav {
+                padding: 0 16px;
+            }
+
+            .logo-container img {
+                height: 28px;
+            }
+
+            .logo-text {
+                font-size: 15px;
             }
 
             nav ul {
-                gap: 16px;
+                gap: 8px;
             }
 
             nav ul li:not(:last-child) {
                 display: none;
+            }
+
+            nav ul li a {
+                font-size: 13px;
+                padding: 8px 14px;
+            }
+
+            .lang-toggle {
+                font-size: 11px;
+                padding: 6px 10px;
             }
 
             .features-grid,
@@ -817,16 +902,186 @@
             }
 
             .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-                gap: 16px;
+                grid-template-columns: 1fr;
+                gap: 12px;
             }
 
             .stat-item h3 {
-                font-size: 26px;
+                font-size: 28px;
+            }
+
+            .stat-item p {
+                font-size: 12px;
             }
 
             .section-header h2 {
-                font-size: 26px;
+                font-size: 24px;
+            }
+
+            .section-label {
+                font-size: 10px;
+            }
+
+            .section-header p {
+                font-size: 14px;
+            }
+
+            .feature-card,
+            .service-card {
+                padding: 24px;
+            }
+
+            .feature-icon {
+                width: 36px;
+                height: 36px;
+                font-size: 16px;
+            }
+
+            .feature-card h3,
+            .service-card h3 {
+                font-size: 16px;
+            }
+
+            .feature-card p,
+            .service-card p {
+                font-size: 13px;
+            }
+
+            .testimonial-card {
+                padding: 20px;
+            }
+
+            .testimonial-card p {
+                font-size: 13px;
+            }
+
+            .author-avatar {
+                width: 28px;
+                height: 28px;
+                font-size: 11px;
+            }
+
+            .author-info {
+                font-size: 12px;
+            }
+
+            .author-title {
+                font-size: 11px;
+            }
+
+            .contact-section {
+                padding: 40px 16px;
+            }
+
+            .contact-left,
+            .contact-right {
+                padding: 40px 24px;
+            }
+
+            .contact-left h2 {
+                font-size: 32px;
+            }
+
+            .contact-left > p {
+                font-size: 14px;
+            }
+
+            .contact-method {
+                padding: 16px;
+            }
+
+            .contact-method-icon {
+                width: 36px;
+                height: 36px;
+            }
+
+            .contact-method-info h4 {
+                font-size: 11px;
+            }
+
+            .contact-method-info p {
+                font-size: 14px;
+            }
+
+            .contact-form-header h3 {
+                font-size: 24px;
+            }
+
+            .form-field input,
+            .form-field textarea {
+                padding: 12px 14px;
+                font-size: 13px;
+            }
+
+            .form-submit-btn {
+                padding: 14px;
+                font-size: 12px;
+            }
+
+            footer {
+                padding: 40px 16px 24px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                gap: 20px;
+                text-align: center;
+            }
+
+            .footer-left {
+                flex-direction: column;
+                gap: 16px;
+            }
+
+            .footer-logo {
+                font-size: 16px;
+            }
+
+            .footer-content > p {
+                font-size: 13px;
+            }
+
+            .social-link {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+
+            .copyright {
+                font-size: 11px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .hero h1 {
+                font-size: 24px;
+            }
+
+            .hero {
+                padding: 100px 16px 50px;
+            }
+
+            .stats,
+            .features,
+            .services,
+            .testimonials {
+                padding: 50px 16px;
+            }
+
+            .section-header h2 {
+                font-size: 22px;
+            }
+
+            .cta-button {
+                padding: 12px 20px;
+                font-size: 13px;
+            }
+
+            .stat-item h3 {
+                font-size: 24px;
+            }
+
+            .contact-left h2 {
+                font-size: 28px;
             }
         }
     </style>
